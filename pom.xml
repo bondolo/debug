@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.lwjglx</groupId>
 	<artifactId>lwjglx-debug</artifactId>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 	<name>LWJGLX/debug</name>
 	<description>Debug LWJGL3 OpenGL applications</description>
 	<inceptionYear>2017</inceptionYear>
@@ -34,7 +34,7 @@
 		</developer>
 	</developers>
 	<properties>
-		<lwjgl.version>3.3.6</lwjgl.version>
+		<lwjgl.version>3.4.0</lwjgl.version>
 		<asm.version>9.9.1</asm.version>
 		<jopt-simple.version>5.0.4</jopt-simple.version>
 		<junit.version>4.13.2</junit.version>
@@ -43,8 +43,8 @@
 		<maven-source-plugin.version>3.3.1</maven-source-plugin.version>
 		<maven-javadoc-plugin.version>3.12.0</maven-javadoc-plugin.version>
 		<maven-antrun-plugin.version>3.2.0</maven-antrun-plugin.version>
-		<maven-failsafe-plugin.version>3.5.2</maven-failsafe-plugin.version>
-		<maven-shade-plugin.version>3.6.0</maven-shade-plugin.version>
+		<maven-failsafe-plugin.version>3.5.4</maven-failsafe-plugin.version>
+		<maven-shade-plugin.version>3.6.1</maven-shade-plugin.version>
 		<maven-compiler-plugin.version>3.13.0</maven-compiler-plugin.version>
 		<maven-gpg-plugin.version>3.2.7</maven-gpg-plugin.version>
 		<maven.compiler.source>1.8</maven.compiler.source>
