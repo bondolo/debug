@@ -359,7 +359,11 @@ public class GLXMLReader extends DefaultHandler {
     private void generate() throws Exception {
         StringBuilder sb = new StringBuilder();
         StringBuilder prolog = new StringBuilder();
-        FileOutputStream fos = new FileOutputStream(new File(outputFile));
+        File file = new File(outputFile);
+        if (file.getParentFile() != null) {
+            file.getParentFile().mkdirs();
+        }
+        FileOutputStream fos = new FileOutputStream(file);
         Writer writer = new OutputStreamWriter(fos);
         prolog.append("package org.lwjglx.debug;\n");
         prolog.append("import java.util.Map;\n");
